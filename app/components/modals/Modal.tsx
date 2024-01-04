@@ -86,7 +86,7 @@ const Modal: React.FC<ModalProps> = ({
                             <div className='flex flex-row items-center gap-4 w-full'>
                                 <Button
                                     disable={disable}
-                                    label={actionLabel}
+                                    label={actionLabel || ''}
                                     onClick={handleSubmit}
                                 />
 
